@@ -1,0 +1,169 @@
+/* doces*/
+
+body{
+	background-color: #FFFACD
+}
+
+a{
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.dev1 a{
+
+	float: right;
+}
+
+.dev1 a:hover{
+	text-decoration: none;
+}
+
+.dev a{
+	text-decoration: none;
+	margin-top: -36px
+}
+
+.dev{
+
+	font-size: 20px
+}
+
+.dev1 strong{
+	color: white;
+}
+
+
+#menu a:hover{
+	color: black;
+	text-decoration: none;
+
+	background: white;
+}
+
+#menu{
+
+	line-height: 40px;
+
+	background-color: #8B4513;
+}
+
+.doces1{
+	font-size: 20px;
+	margin-top: 30px;
+
+}
+
+
+
+.div_1 img{
+	border: 10px;
+	border-style: groove;
+	border-radius: 20px;
+	margin-top: 30px;
+	max-height: 450px;
+	margin-left: 130px;
+	width: 1030px
+
+}
+
+
+#rodape{
+	height: 310px;
+	color: white;
+	line-height: 20px;
+	background-color: black;
+	padding: 5px;
+	margin-top: 100px;
+	font-size: 20px;
+
+}
+
+
+
+.rede img{
+	width: 75px;
+	padding: 18px
+}
+
+.rede{
+	right: 30px;
+	bottom: -320px;
+	position: absolute;
+	float: right;
+	display: flex;
+	margin-bottom: 80px
+}
+
+
+
+.rede li{
+
+	list-style-type: none;
+
+}
+
+
+iframe{
+	position: absolute;
+	margin-top: -290px;
+	margin-left: 440px
+}
+
+
+
+
+@media screen and (max-width: 678px){
+
+	.dev{
+
+		font-size: 14px;
+	}
+
+	iframe{
+		margin-left: 5px;
+		
+		width: 470px;
+		margin-top: -0px;
+
+		
+	}
+
+	.rede{
+		margin-right: -50px;
+		display: inline;
+		margin-bottom: -1500px;
+	}
+
+
+	#rodape{
+		
+		clear: both;
+		margin-top: 800px;	
+	}
+
+	.doces1{
+		margin-left: 50px;
+
+
+	}
+
+	.doces2{
+		margin-left: 50px;
+
+		margin-top: 7px;
+
+
+	}
+
+	.doces3{
+		margin-right: 83px;
+
+		margin-top: 7px;
+	}
+
+
+}
+

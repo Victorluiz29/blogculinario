@@ -1,0 +1,179 @@
+/* Massas*/
+
+body{
+	background-color: #FFFACD
+}
+
+a{
+	color: black;
+	padding: 8px;
+}
+
+#menu a{
+
+	text-decoration: none;
+}
+
+
+#menu a:hover{
+	color: black;
+
+	background-color: white
+}
+
+#menu{
+	text-decoration: none;
+
+	line-height: 40px;
+	background-color: #8B4513;
+}
+
+
+.dev1 a{
+	text-decoration: none;
+	float: right;
+}
+
+.dev a{
+
+	margin-top: -34px
+}
+
+.dev{
+
+	font-size: 20px
+}
+
+.dev1 strong{
+	color: white;
+}
+
+
+
+.div_1 img{
+	border: 10px;
+	border-style: groove;
+	border-radius: 20px;
+	max-height: 450px;
+	margin-left: 130px;
+	margin-top: 80px;
+	width: 1030px;
+
+}
+
+
+
+
+#rodape {
+	height: 300px;
+	color: white;
+	line-height: 20px;
+	font-size: 20px;
+	margin-top: 100px;
+	padding: 5px;
+	background-color: black;
+
+}
+
+
+.rede img{
+	width: 70px;
+	padding: 18px;
+}
+
+.rede{
+	right: 25px;
+	bottom: -225px;
+	position: absolute;
+	float: right;
+	display: flex;
+	margin-bottom: -30px
+}
+
+
+
+.rede li{
+
+	list-style-type: none;
+
+}
+
+
+iframe{
+	position: absolute;
+	margin-top: -285px;
+	margin-left: 440px;
+}
+
+
+@media screen and (max-width: 678px){
+
+	.dev{
+
+		font-size: 14px;
+	}
+
+	iframe{
+		margin-left: 5px;
+		
+		width: 470px;
+		margin-top: 8px;
+
+		
+	}
+
+
+	.rede{
+		margin-right: -50px;
+		display: inline;
+		margin-bottom: -1750px;
+	}
+
+	#rodape{
+		
+		clear: both;
+		margin-top: 150px;	
+	}
+
+	.massa2{
+		margin-right: 40px;
+
+		margin-top: 10px;
+	}
+
+	.massa1{
+
+		margin-left: 50px;
+	}
+
+	.massa3{
+		margin-left: 50px;
+
+
+		margin-top: 1400px;
+	}
+
+	.massa3 img{
+
+		width: 380px;
+	}
+
+	.massa2 img{
+
+		width: 380px;
+	}
+
+	.massa1 img{
+
+		width: 380px;
+	}
+}
+
+
+
+	
+
+
+
+
+

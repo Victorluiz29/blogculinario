@@ -1,0 +1,189 @@
+/* Blog culinária*/
+
+body{
+	background-color: #FFFACD
+}
+
+a{
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+}
+
+
+#menu{
+	line-height: 40px;
+	background-color: #8B4513;
+}
+
+
+#menu a:hover{
+	text-decoration: none;
+	color: black;
+
+	background-color: white
+}
+
+.dev1 a:hover{
+
+	text-decoration: none;
+}
+
+
+
+.dev1 a{
+
+
+	float: right;
+}
+
+.dev a{
+
+	margin-top: -36px
+}
+
+.dev{
+
+	font-size: 20px
+}
+
+.dev1 strong{
+	color: white;
+}
+
+.div_1 img{
+	border: 10px;
+	border-style: groove;
+	border-radius: 20px;
+
+	margin-right: 200px;
+}
+
+
+
+.novidades{
+	padding: 25px;
+	float: right;
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.novidades img{
+	max-height: 450px;
+	width: 882px;
+}
+
+
+#rodape p{
+
+	display: flex;
+}
+
+
+#rodape{
+	background-color: black;
+	margin-top: 600px;
+	font-size: 20px;
+	padding: 5px;
+	color: white;
+
+}
+
+iframe{
+	clear: both;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 440px;
+}
+
+
+
+.rede li{
+
+	list-style-type: none;
+
+}
+
+
+
+
+.rede img{
+	width: 70px;
+	padding: 15px;
+}
+
+.rede{
+
+	clear: both;
+	margin-left: 1000px;	
+	display: flex;
+    margin-top: -200px;
+}
+
+
+@media (max-width: 900px){
+
+	.dev{
+
+		font-size: 14px;
+	}
+
+
+	.rede{
+		margin-bottom: -1950px;
+
+		display: inline;
+	}
+
+	.novidades{
+		clear: both;
+		width: 440px;
+		margin-right: -50px;
+
+		display: unset;
+	}
+
+	.mais a{
+		margin-left: 50px;
+
+	}
+
+	.mais img{
+		width: 390px;
+		margin-left: 50px;
+
+	}
+
+
+	.mais{
+		
+		clear: both;	
+		display: unset;
+	}
+
+	.recentes{
+		clear: both;
+		width: 200px;
+		margin-left: 50px;
+		margin-top: 0px;
+
+		display: unset;
+	}
+
+	#rodape{
+
+		margin-top: 900px;
+	}
+
+	iframe{
+		margin-top: 0px;
+
+		margin-left: 0px;
+	}
+
+
+}
+
+
+
+

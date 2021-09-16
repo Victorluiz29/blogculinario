@@ -1,0 +1,153 @@
+/* salgados*/
+
+body{
+	background-color: #FFFACD
+}
+
+a{
+	padding: 8px;
+	color: black;
+}
+
+
+#menu a:hover{
+	color: black;
+
+	background-color: white
+}
+#menu a{
+	text-decoration: none;
+
+}
+
+#menu{
+
+	line-height: 40px;
+	background-color: #8B4513;
+}
+
+.dev1 a{
+	text-decoration: none;
+	margin-top: -34px;
+	float: right;
+}
+
+
+.dev{
+
+	font-size: 20px
+}
+
+.dev1 strong{
+
+	color: white;
+}
+
+
+.salgados1{
+	margin-top: 30px;
+	float: left;
+}
+
+.div_1 img{
+	margin-top: 50px;
+	border: 10px;
+	border-style: groove;
+	border-radius: 20px;
+	max-height: 450px;
+	margin-left: 150px;
+	width: 960px
+
+
+}
+
+
+
+#rodape{
+	height: 320px;
+	width: 1265px;
+	font-size: 20px;
+	margin-top: 150px;
+	padding: 5px;
+	background-color: black;
+	line-height: 20px;
+	color: white;
+}
+
+
+.rede{
+	bottom: -280px;
+	right: 20px;
+	position: absolute;
+	display: flex;
+	
+}
+
+
+
+.rede img{
+	padding: 20px;
+	width: 80px;
+
+}
+
+.rede li{
+
+	list-style-type: none;
+
+}
+
+iframe{
+	position: absolute;
+	margin-top: 690px;
+	margin-left: 440px;
+}
+
+@media screen and (max-width: 678px){
+
+	.dev{
+
+		font-size: 14px;
+	}
+
+	iframe{
+		margin-top: 0px;
+
+		float: right;
+	}
+
+
+	#rodape{
+		margin-top: 2100px;
+	}
+
+	.rede{
+		margin-right: -50px;
+		display: inline;
+
+		margin-bottom: -1510px;
+	}
+
+	.salgados1{
+		margin-left: 80px;
+
+
+	}
+
+	.salgados2{
+		margin-top: 0px;
+		margin-right:  60px;
+
+		float: right;
+
+
+	}
+
+	.salgados3{
+		margin-right: 60px;
+		margin-top: 0px;
+
+
+	}
+
+}
